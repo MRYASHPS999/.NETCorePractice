@@ -1,0 +1,30 @@
+MVC Framework : it is design architecture
+
+-We Can use static content(normal html) in MVC but not in .aspx file(need server side controls and need to import manually cdn's and other external files)
+
+====================================================================
+
+M - Model
+V - View
+C - Controller
+
+====================================================================
+
+Advantages over .aspx web forms:
+
+-In normal web forms, components(i.e controls) are dependent on each other but in mvc these components are independent we can manuaaly control it.
+
+- In MVC no need to externally import libraries, it will configure during project rendering time.
+
+- No need to craete master page file it will create automatically(layout file will get readymade no manual creation is needed), We will get layout file.
+
+- We are not using ADO.NET for this (because of 5-6 must required steps for establishing for db connection)
+
+- In MVC we use entity framework(An ORM Framework) for Database connection handling
+
+====================================================================
+
+MVC Gives model to create table(No need of Manual table creation) ORM Framework automatic create tables based on fields created in the class (If Employee class is created and id name salry are the fields are created then Employee class will be the table name and these fields will be Table colums for Employee Table) It will be done by ORM Framework.
+
+- In MVC, ORM framework provides annotations to create table structures and columns(already defined annotations by the ORM framework)
+
