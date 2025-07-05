@@ -28,3 +28,13 @@ MVC Gives model to create table(No need of Manual table creation) ORM Framework 
 
 - In MVC, ORM framework provides annotations to create table structures and columns(already defined annotations by the ORM framework)
 
+
+*************************************************************************************************************************************************
+
+
+MVC OVERVIEW :
+
+
+
+- In MVC, Test driven approach is easy :
+because for each module is divided in Module,View & Controller (It becomes easy to test the module/file and helps to resolve error very efficient)
