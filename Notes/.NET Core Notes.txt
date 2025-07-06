@@ -4,13 +4,15 @@ MVC Framework : it is design architecture
 
 ====================================================================
 
-M - Model
-V - View
-C - Controller
+M - Model (Database Layer {for performaing databse operation})
+V - View (Presentation Layer what user can see)
+C - Controller (Logical Layer {where we arite actual logic for the application})
 
 ====================================================================
 
 Advantages over .aspx web forms:
+
+- For business level applications, it becomes very complex using web forms.
 
 -In normal web forms, components(i.e controls) are dependent on each other but in mvc these components are independent we can manuaaly control it.
 
@@ -37,4 +39,122 @@ MVC OVERVIEW :
 
 
 - In MVC, Test driven approach is easy :
-because for each module is divided in Module,View & Controller (It becomes easy to test the module/file and helps to resolve error very efficient)
+->because for each module is divided in Module,View & Controller (It becomes easy to test the module/file and helps to resolve error very efficient)
+
+
+- MVC Structure is best suitable for testing the application than normal web form application
+
+-------------------------------------------------------------------------------------------
+
+M(Model) is as class which manage the database related work (.cs class). Extension of model is .cs only
+
+No logical opeartions done only we define properties in model
+
+We Use encapsuation properties in model
+
+Model is nothing but Entity/Table (Helpful to ORM for craeting table as per the model structure and properties)
+
+eg. class Emp(This will e table name which will be created by ORM)
+{
+	public int id {get; set;} // ORM Will treat as Columns for the Emp Tale
+	public string name {get; set;} // ORM Will treat as Columns for the Emp Tale
+	public string salary {get; set;} // ORM Will treat as Columns for the Emp Tale
+
+}
+
+- The access modifier will be applied to getter and setter methods not for variables(properties).
+
+-------------------------------------------------------------------------
+
+-> What is "View":
+
+- View is viewpoint(means what user can see)
+- and extension of view file is ".cshtml"(c# + HTML).
+- We can write html code but for c# code we will required helper files/extensions.
+- Design file of the module with c# codes.(UI with backend code) but logical operations are note possible in the view.
+
+
+eg :
+
+For login Module in MVC :
+
+M(.cs file) -
+
+class Login
+{
+	public string username {get; set;}
+	public string password {get; set;}
+} 
+
+V (View) -
+
+Username : textfield
+
+Password : textfield
+
+Login Button
+
+
+C (Controller):
+
+if(username.Equals("Admin")) && password.Equals("Admin")
+{
+	//logical operations
+}
+
+**********************************************************************************************
+
+controller action
+1) Return view (From Controller-> View)
+
+2) Go in the model to collect data and again it will come to controller to perform login(action) and then return view
+(From Controller -> Model{to collect the data} > Again to controller(it will perform the logical operations and then it will return ) -> View)
+
+Flow of MVC 
+
+ From User -> Controller -->View -> Model(from controller, 2 ways response)--> (Again) -> Controller
+
+
+---------------------------------------->MVC Overview Complted<-------------------------------------------------
+
+ *********************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
