@@ -2,15 +2,25 @@ Conventional Based Routing :
 
 app.MapControllerRoute(
 	name : 'default'
-	pattern : [controller = Home(controller) / Action = Index(Action) / id?]
+	pattern : [controller = Home(controller name) / Action = Index(Action Name) / id?]
 )
 
+-------------------------------------------------------------
 
-Conventional Based Routing :
+Attribute Based Routing :
 
 app.MapControllerRoute();
 
-Here controller 
+Attribute Bases Routing is not used for web application. It is more used for Web APIs.
+
+
+
+
+
+
+
+
+
 
 
 

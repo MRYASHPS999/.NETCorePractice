@@ -1,0 +1,109 @@
+Conventional Based Routing :
+
+app.MapControllerRoute(
+	name : 'default'
+	pattern : [controller = Home(controller name) / Action = Index(Action Name) / id?]
+)
+
+
+- We cant control access of route(URL)
+-------------------------------------------------------------
+
+Attribute Based Routing :
+
+app.MapControllerRoute();
+
+Attribute Bases Routing is not used for web application. It is more used for Web APIs.
+
+
+
+- We can control route (URL)
+
+Eg :
+
+annotation : (Route,Parameter)
+
+Sysntax:
+
+(Controller Name : Emp)
+[Route("Fetch")]      (Attribute Based Routing)
+public IActionResult FetchEmpDetailsById(){
+		
+		//code
+		
+}
+
+
+localhost:12345/Emp(controller name)/Fetch(Instead of FetchEmpDetailsById)
+
+********************************************************************************************************************
+//By fetching id 
+[Route("Fetch/{id}")]
+public IActionResult FetchingEmpDetailsById(int id){
+
+	//code
+
+}
+
+
+
+
+url: localhost:12345/Emp/Fetch/101  //(id)
+
+------------------------------------------------------------------------------
+
+//By fetching name 
+[Route("Fetch/{name}")]
+public IActionResult FetchingEmpDetailsByUsingName(string name){
+
+	//code
+
+}
+
+
+localhost:12345/Emp/Fetch/John
+
+
+
+--- We Use convention based routing where Views are used. We use Attribute based routing gor web API's where Views are not used.
+
+
+
+************************************************************************************************************************************************
+
+
+
+
+
+
+Tag Helpers:
+
+It is used to enable server side code (inside HTML code for page rendering)
+
+asp-controller = "" 
+
+asp-action = ""
+
+eg : 
+
+<a asp-controller="Home" asp-action="Index">Home</a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

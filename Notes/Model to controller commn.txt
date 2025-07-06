@@ -1,0 +1,89 @@
+How to pass data from model to controller:
+
+//Model
+class Emp{
+	public int id {get; set;}
+	public string name {get; set;}
+	public double salary {get; set;}
+}
+
+**************************
+
+//Controller
+
+public IActionResult getEmp(){  //getEmp.cshtml should be present
+		
+		var e = new Emp(){
+			id = 101, name = "John", salary = 10000.00
+		}
+			
+
+	
+	return View(e); //here we are passing object
+}
+
+---------------------------------------
+
+View 
+
+getEmp.cshtml
+
+@Model.id
+@Model.name
+@Model.salary
+
+*********************************************************************************************************************
+
+Model
+
+
+class Product{
+	
+	public int pid {get; set;}
+	public string pname {get; set;}
+	public string pcat {get; set;}
+	public double price {get; set;}
+	
+}
+
+
+controller
+
+public IActionResult AllProducts()
+{
+		var p = new List<Product>()
+		{
+			new Product{pid = 101, pname = "John", pcat="Elect", price = 10000.00}
+			
+			
+			...
+			
+			multiple objects
+		}
+		
+		retwun View(p);
+
+}
+
+
+View 
+
+AllProducts.cshtml
+
+@Model List<Product>
+
+@foreach(var p in Model)
+{
+	@p.pid
+	@p.pname
+	@p.pcat
+	@p.price
+}
+
+
+
+
+
+
+
+

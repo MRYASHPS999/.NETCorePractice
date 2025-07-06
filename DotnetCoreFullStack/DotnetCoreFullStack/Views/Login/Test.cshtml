@@ -1,0 +1,84 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+}
+
+
+@{
+    string username ="Test123", passowrd ="Test123";
+
+
+
+}
+
+
+<h1>This Is Test Page</h1>
+
+
+@if(username.Equals("TestUser") && passowrd.Equals("Test123")){
+    <div>Login Sucessfull!!</div>
+
+}
+else
+{
+    <div>Invalid Credentials!!</div>
+}
+
+
+<br />
+
+@if(username.Equals(passowrd)){
+    <div>Username and Password is Same</div>
+}
+
+
+@{
+    int a = 31, b = 4, c = 2;
+}
+
+
+
+Else If Ladder
+
+@if (a > b && b > c)
+{
+    <div>a is greatest</div>
+
+}
+else if(b > a && b > c)
+{
+    <div>b is greatest</div>
+}
+else
+{
+    <div>c is greatest</div>
+
+}
+
+
+
+
+
+Looping Statements <br />
+
+@for (int i = 1; i <= 100; i++)
+{
+    @i <br/>
+}
+
+<br />
+<br />
+
+Foreach Loop
+
+@{
+    int []arr = { 10,20,30,40,50};
+}
+
+@foreach (var i in arr)
+{
+    @i <br />    
+}
+

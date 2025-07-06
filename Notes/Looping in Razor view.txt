@@ -1,0 +1,23 @@
+Looping in Razor view :
+
+1) For Loop 
+
+Syntax :
+
+@for(initialization;condition;increment/decrement)
+{
+	statement
+}
+
+---------------------------------------------------------------------------
+
+2) For each loop
+
+syntax :
+
+@foreach(var varname in targetValue){
+  //Statement
+}
+
+-----------------------------------------------------------------------
+

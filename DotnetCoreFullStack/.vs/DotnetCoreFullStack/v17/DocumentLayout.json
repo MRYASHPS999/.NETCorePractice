@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,14 +87,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "DotnetCoreFullStack\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T16:07:31.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:07:17.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Models\\Product.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Models\\Product.cs",
+              "RelativeToolTip": "DotnetCoreFullStack\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:06:03.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Program.cs",
               "RelativeDocumentMoniker": "DotnetCoreFullStack\\Program.cs",
               "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Program.cs",
               "RelativeToolTip": "DotnetCoreFullStack\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T09:04:35.273Z",
+              "WhenOpened": "2025-07-06T15:57:08.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\Emp\\Index.cshtml",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Views\\Emp\\Index.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\Emp\\Index.cshtml",
+              "RelativeToolTip": "DotnetCoreFullStack\\Views\\Emp\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T15:54:00.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpController.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\EmpController.cs",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Controllers\\EmpController.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\EmpController.cs",
+              "RelativeToolTip": "DotnetCoreFullStack\\Controllers\\EmpController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T15:52:46.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Models\\Emp.cs",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Models\\Emp.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Models\\Emp.cs",
+              "RelativeToolTip": "DotnetCoreFullStack\\Models\\Emp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T15:51:12.301Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,72 @@
+Conditional Statements in Razor View:
+
+1)If Statement
+in c#
+
+syntax :
+
+if(condition)
+{
+	logic/code
+}
+
+in Razor view:
+@if(condition)
+{
+	logic/code
+}
+
+
+*************************************
+
+2)If-Else Statement
+in c#
+
+syntax :
+
+if(condition)
+{
+	logic/code
+}else{
+	statemnt;
+}
+
+in Razor view:
+@if(condition)
+{
+	logic/code
+}else{
+	statement;
+}
+
+********************************************
+
+3)else if ladder 
+
+
+in c#
+
+syntax :
+
+if(condition)
+{
+	logic/code
+}
+else if{
+	statemnt;
+}
+else{
+	statement
+}
+
+in Razor view:
+@if(condition)
+{
+	logic/code
+} 
+else if{
+	statement;
+} 
+else{
+	statement
+}
