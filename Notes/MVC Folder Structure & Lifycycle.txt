@@ -1,0 +1,89 @@
+Difference Between ASP.NET MVC & ASP.NET Core MVC
+
+
+ASP.NET MVC:
+
+- It is framework.
+- It is older/traditional version
+- It is single platform (Windows OS Only).
+- For execution IIS server is required.(Hosting purpose)
+- Low Performance due to addition of dependencies manually
+- Flexibilty & modularity(adding new features) is less.
+-Dependency Injection is supported.
+
+
+
+ASP.NET Core MVC:
+
+- It is framework.
+- It is newer version of ASP.NET MVC.
+- It is cross platform (Any OS we can run apllication)
+- It is open source
+- Here we dont require IIS Express server,there are diffrenet servers to execute.(Hosting purpose)
+- Performance is high because dependencies are already in built.
+- Flexibilty & modularity(adding new features) is high.
+- Dependency Injection is supported.
+
+
+ASP.NET Core MVC is more prefereble than ASP.NET MVC.
+
+*************************************************************************************************
+
+Method in asp.net:
+
+public void/datatype methodname(parameters){
+	//code
+}
+
+
+
+Method in asp.net MVC:
+
+public ActionResult ActionName(parameters){
+	//code
+}
+
+
+
+Method in asp.net core MVC:
+
+public IActionResult ActionName(parameters){
+	//code
+}
+
+
+------------------------------------------------><------------------------
+
+Why Return type is ActionResult:
+
+-> "ActionResult" is a class & "IActionResult" is an interface.
+
+
+-> ActionName is dependent on view and vice versa.
+
+------------------------------------------------><------------------------
+
+
+public IActionResult Home(parameters){
+	return View(); // it will check the view called Home.cshtml(it should be present inside view folder )
+
+	return json; //it will not check for view
+}
+
+-Actionmname is the viewname inside views folder
+
+-if we returning view thenit will check for viewname which mentioned in action name.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
