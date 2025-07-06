@@ -1,0 +1,273 @@
+When MVC project will run:
+
+-It Will search for "Program.cs" file.
+-It will decide controller have to take action and Which ActionName to be performed.(For rendering which page will be the First page when application is loaded first time.)
+
+- Program.cs refres "Routing".
+
+-----------------------------------------------><------------------------------------------
+
+Routing : 
+
+Route (location/path):
+
+eg : localhost:portnumber/[ControllerName]/[ActionName]       //{ ->[ControllerName]/[ActionName] - is the route}
+
+
+
+----------------------------------------------------------><----------------------------------------------
+
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+
+//all the user required/uder-defined servce should be mentioned this section only. not below of var app = builder.Build();
+
+var app = builder.Build();
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection(); //middleware for request generation and response handling
+
+
+app.UseStaticFiles(); //middleware for request generation and response handling ( wwroot {static files loading} )
+
+app.UseRouting(); //middleware {routing}
+
+app.UseAuthorization(); //middleware for request generation and response handling (Authentication and authorization)
+
+
+//this part is very important becuase of page routing purpose
+app.MapControllerRoute(     //middleware for request generation and response handling
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");   //(Program.cs when runs this part at first)
+
+
+    //id? (id parameter and ? means id parameter is optional{? is not present it will mark as mandatory})
+
+app.Run(); //middleware for request generation and response handling (it is used to run the application)
+
+//This was Program.cs file structure
+
+
+*************************************************************************************************************************************
+
+app.UseRouting(); //middleware
+
+Types of routing :
+
+1) Convensional based routing:
+
+app.MapControllerRoute(     //middleware for request generation and response handling
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+2)Attribute based routing:
+
+Useful when Actionname is different and view filename (for that particular view) is different
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

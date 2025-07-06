@@ -1,0 +1,17 @@
+Conventional Based Routing :
+
+app.MapControllerRoute(
+	name : 'default'
+	pattern : [controller = Home(controller) / Action = Index(Action) / id?]
+)
+
+
+Conventional Based Routing :
+
+app.MapControllerRoute();
+
+Here controller 
+
+
+
+

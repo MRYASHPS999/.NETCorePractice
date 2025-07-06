@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetCoreFullStack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d9543325d2e33c14746101778eb9e352ad9c8c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29eccfdf3cf3439cecdfefde7399f99c9244a934")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetCoreFullStack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetCoreFullStack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
