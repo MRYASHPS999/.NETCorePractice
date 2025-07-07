@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@TempData["msg"] <br />
+
+@foreach (var data in (List<Emp>)TempData["empData"])
+{
+    
+    @data.id <br />
+    @data.name <br />
+    @data.salary <br />
+
+
+}
+
+<br />
+<br />
+
+@TempData["mydata"]
+
+@* @TempData["empData"] *@

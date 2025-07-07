@@ -1,0 +1,27 @@
+﻿@model Emp
+
+
+<form method="post" class="form-control">
+    
+    Id : <input type="text" asp-for="id" class="form-control" /> <br />
+
+    Name : <input type="text" asp-for="name" class="form-control" /> <br />
+
+    Salary : <input type="text" asp-for="salary" class="form-control" /> 
+
+    <br />
+
+    <input type="submit" value="Show" class="form-control btn-primary" />
+
+</form>
+
+
+<br /> <br />
+@if(Model!=null)
+{
+
+    @Model.id <br />
+    @Model.name <br />
+    @Model.salary <br />
+
+}

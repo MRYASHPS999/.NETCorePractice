@@ -1,0 +1,11 @@
+﻿<form method="post" asp-action="Impl">
+
+    Username <input type="text" class="form-control" name="user">
+    Password <input type="password" class="form-control" name="pass">
+
+    <input type="submit" value="Login" />
+
+</form>
+
+
+<p class="text-danger"> @TempData["msg"] </p>

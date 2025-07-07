@@ -1,0 +1,57 @@
+﻿
+
+
+@model Employee
+
+<form  class="form-control" method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div>
+        <label asp-for="id"></label>
+        <input type="text" class="form-control" asp-for="id" />
+        <span asp-validation-for="id" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="name"></label>
+        <input type="text" class="form-control" asp-for="name" />
+        <span asp-validation-for="name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="salary"></label>
+        <input type="text" class="form-control" asp-for="salary" />
+        <span asp-validation-for="salary" class="text-danger"></span>
+    </div>
+
+
+    <input type="submit" class="btn btn-info"  value="Validate" />
+
+
+    
+</form>
+
+
+@if (Model != null)
+{
+    
+    @Model.id <br />
+    @Model.name <br />
+    @Model.salary <br />
+
+
+
+}
+
+
+
+
+@section scripts
+{
+
+    <partial name="_ValidationScriptsPartial"> </partial>
+
+}
+
+

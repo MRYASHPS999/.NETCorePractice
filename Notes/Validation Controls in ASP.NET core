@@ -1,0 +1,179 @@
+Validation Controls in ASP.NET core
+
+Types :
+
+1) Client Side Validation
+2) Server Side Validation
+3) Remote Control Validation (based on data stored in db and fetch data for vlidation)
+
+
+************************************************************************************************************
+
+
+Helpers for Vallidation control
+
+
+
+
+
+*****************************************
+
+
+Employee.cs
+
+class Employee
+{
+	
+	[Required(ErrorMessage="Required Field")]
+	public int id {get; set;}
+	
+	
+	[Required(ErrorMessage="Name is Required")]
+	public string name {get; set;}
+	
+	
+	[Required]
+	public int id {get; set;}
+
+}
+
+
+*******************************************
+
+asp-validation-for  //tag helper to show validation error mesage
+
+If validation message is set from model side, dont define it from view stored
+----------------------------------------- 
+
+Index.cshtml
+
+<form method="">
+
+ID <input type = "text" asp-for="id">
+ <span asp-validation-for="id"></span> //for error message for validation control 
+ 
+Name <input type = "text" asp-for="name">
+ <span asp-validation-for="name"></span>
+ 
+ID <input type = "text" aspf-for="salary">
+ <span asp-validation-for="salary">Salary Field is required</span> 
+ 
+<input type ="submit">
+
+</form> 
+
+
+
+**************************************************************
+
+
+client side error handling
+
+@Section Scripts
+{
+	<Partial name = "_ValidationScriptsPartial"/>
+}
+
+*******************************
+
+TestController.cs (To validate the model)
+
+public IActionResult MyData(Employee empl)
+{
+	if(ModelState.IsValid)
+	{
+		
+	}
+}
+
+
+*************************************************************************************************
+
+
+
+Validation Summary
+
+Tag helper 
+
+<span asp-validation-summary="All" ></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

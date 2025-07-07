@@ -1,0 +1,75 @@
+Passing Data from View To Controller:
+
+
+- In previous session we hav seen data passing from Controller to View 
+
+- Now we will see data passing from View  to Controller
+
+*******************************************************************
+
+
+
+Index.cshtml
+
+<form method="get/post" asp-action="" (it is optional)>
+
+Username <input type="Text" name="user">
+Password <input type="Text" name="pass">
+
+<input type="Submit">
+
+</form>
+
+.cs(Controller file)
+
+[HttpPost] //annotaion syntax in csharp
+public IActionResult setData()
+{
+	
+}
+
+[HttpPost] //annotaion syntax in csharp
+public IActionResult Index(string user,string pass)
+{
+	//Action
+}
+
+
+***************************************************************************************************************************************
+
+
+RedirectToAction (for redirecting to another view )
+- It is used to redirecting from one view to another vie.
+
+
+public IActionResult Home()
+{
+	return RedirectToAction("action-name");  //for another action of same controller.
+			or
+	return RedirectToAction("Action-Name","Controller-Name");	// for redirecting to one controller to another controller action name	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

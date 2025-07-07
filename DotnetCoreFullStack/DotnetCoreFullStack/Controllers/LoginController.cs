@@ -6,6 +6,7 @@ namespace DotnetCoreFullStack.Controllers
     {
         public IActionResult Index()
         {
+            TempData["msg"] = "This message from tempdata";
             return View();
         }
 

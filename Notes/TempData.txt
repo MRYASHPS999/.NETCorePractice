@@ -1,0 +1,105 @@
+TempData in .NET Core
+
+- Advantages of TempData over ViewData & ViewBag:
+
+-We can use Tempdata with same or different views also.
+
+- It is an dictionary object derived from "TempDataDisctionary" class.
+
+- It stores data in key-value pairs.
+
+- TempData must be type casts before use. Check for null values to avoid runtime errors.
+
+- It passing data from current request to the subsequent request during request redirection.
+
+*********************************************************************************************
+
+Syntax :
+
+TempData["key"] = value;
+
+eg : TempData["msg"] = "It is TempData";
+
+on .cshtml:
+
+@TempData["msg"]
+
+@if(TempData["msg"]!= null)
+{
+	@TempData["msg"]
+}
+
+**********************************************************************************
+
+public IActionResult Home(){
+	TempData["msg"] = "  ";
+	return View();
+}
+
+public IActionResult About(){
+	return View();
+}
+
+
+**********************************************************************
+
+(current request)
+public IActionResult Home(){     // In Home.cshtml @TempData["msg"]
+	TempData["msg"] = "  "; 
+	return View();
+}
+
+
+(subsequent request)
+public IActionResult About(){  // In About.cshtml @TempData["msg"]
+	return View();
+}
+
+
+***************************************************************************
+
+Home()
+TempData["msg"]  //current request
+
+About() -> .cshtml @TempData["msg"] //subsequent
+
+Contact() -> .cshtml @TempData["msg"]  //subsequent
+
+
+- If we want to use tempdata in both subsequent requests then it provides method called "keep()"
+
+
+- It is used to hold the value.
+
+syntax :
+
+TempData.keep("obj")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
