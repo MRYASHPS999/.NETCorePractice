@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\views\\testlogin\\usingmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\views\\testlogin\\usingmodel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\controllers\\testlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\controllers\\testlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\views\\testlogin\\mydata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\views\\testlogin\\mydata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\views\\testlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\views\\testlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\dotnetcorefullstack\\dotnetcorefullstack\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8684A371-1A80-4167-B418-AD8C5088B69F}|DotnetCoreFullStack\\DotnetCoreFullStack.csproj|solutionrelative:dotnetcorefullstack\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,93 +74,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Models\\Employee.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Models\\Employee.cs",
-              "RelativeToolTip": "DotnetCoreFullStack\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T04:13:20.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MyData.cshtml",
               "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\TestLogin\\MyData.cshtml",
               "RelativeDocumentMoniker": "DotnetCoreFullStack\\Views\\TestLogin\\MyData.cshtml",
               "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\TestLogin\\MyData.cshtml",
               "RelativeToolTip": "DotnetCoreFullStack\\Views\\TestLogin\\MyData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-08T04:12:55.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestLoginController.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
-              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
-              "RelativeToolTip": "DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T04:07:49.281Z",
+              "WhenOpened": "2025-07-08T06:10:22.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsingModel.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\TestLogin\\UsingModel.cshtml",
-              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Views\\TestLogin\\UsingModel.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\TestLogin\\UsingModel.cshtml",
-              "RelativeToolTip": "DotnetCoreFullStack\\Views\\TestLogin\\UsingModel.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-08T04:05:57.057Z",
+              "Title": "TestLoginController.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
+              "RelativeToolTip": "DotnetCoreFullStack\\Controllers\\TestLoginController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAHAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T06:09:36.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\TestLogin\\Index.cshtml",
-              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Views\\TestLogin\\Index.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\TestLogin\\Index.cshtml",
-              "RelativeToolTip": "DotnetCoreFullStack\\Views\\TestLogin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-08T04:06:56.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "DotnetCoreFullStack\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-08T04:19:29.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Program.cs",
-              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Program.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Program.cs",
-              "RelativeToolTip": "DotnetCoreFullStack\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DotnetCoreFullStack\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T04:10:00.406Z",
+              "WhenOpened": "2025-07-08T05:53:39.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "DotnetCoreFullStack\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\DotnetCoreFullStack\\DotnetCoreFullStack\\Controllers\\TestController.cs",
+              "RelativeToolTip": "DotnetCoreFullStack\\Controllers\\TestController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T05:51:17.179Z",
               "EditorCaption": ""
             }
           ]

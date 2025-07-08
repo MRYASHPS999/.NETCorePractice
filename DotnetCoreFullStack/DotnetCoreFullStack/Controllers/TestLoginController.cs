@@ -106,5 +106,36 @@ namespace DotnetCoreFullStack.Controllers
         }
 
 
+        public IActionResult Login(string user, string pass)
+        {
+
+
+            var p = new List<Product>() {
+
+                new Product{pid = 101, pname = "a", pcat="Elect", price = 10000.00},
+                new Product{pid = 102, pname = "b", pcat="Elect", price = 10000.00},
+                new Product{pid = 103, pname = "c", pcat="Elect", price = 10000.00},
+                new Product{pid = 104, pname = "d", pcat="Elect", price = 10000.00}
+
+            };
+
+            if (user.Equals("Admin") && pass.Equals("Admin123"))
+            {
+                TempData["name"] = user;
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+
+                TempData["error"] = "Invalid Credentials";
+
+            }
+
+            return View();
+
+        }
+
+
     }
 }
