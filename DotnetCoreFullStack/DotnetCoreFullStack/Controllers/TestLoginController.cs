@@ -54,10 +54,10 @@ namespace DotnetCoreFullStack.Controllers
             else
             {
                 TempData["msg"] = "Invalid Credentials!!";
-                return View();
+                return RedirectToAction("Index");
             }
 
-
+            //return View();
         }
 
         public IActionResult UsingModel() 
