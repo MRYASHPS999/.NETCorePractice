@@ -25,6 +25,37 @@
         <span asp-validation-for="salary" class="text-danger"></span>
     </div>
 
+    <div>
+        <label asp-for="age"></label>
+        <input type="text" class="form-control" asp-for="age" />
+        <span asp-validation-for="age" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input type="text" class="form-control" asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="panno"></label>
+        <input type="text" class="form-control" asp-for="panno" />
+        <span asp-validation-for="panno" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="pwd"></label>
+        <input type="text" class="form-control" asp-for="pwd" />
+        <span asp-validation-for="pwd" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="confirmpwd"></label>
+        <input type="text" class="form-control" asp-for="confirmpwd" />
+        <span asp-validation-for="confirmpwd" class="text-danger"></span>
+    </div>
+
+    <br /> 
 
     <input type="submit" class="btn btn-info"  value="Validate" />
 
@@ -39,7 +70,7 @@
     @Model.id <br />
     @Model.name <br />
     @Model.salary <br />
-
+    @Model.Email
 
 
 }

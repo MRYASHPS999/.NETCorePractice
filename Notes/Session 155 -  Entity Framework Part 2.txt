@@ -1,0 +1,384 @@
+Session 155 -  Entity Framework Part 2
+
+************************************************************************
+
+class Emp
+{
+
+	id 		//existing column
+	name	//existing column
+	salary	//existing column
+	doj (want to add new column)
+
+}
+
+************************************************************************
+
+
+For adding new columns in existing object (Model name eg : Emp)
+
+There are two commands:
+
+1) add-migration migrationName
+- It is used to detect the changes from the model
+
+
+2) update-database 
+- It will save the changes in the table
+
+
+*****************************************************************
+
+Entity Framework : DbContext
+
+- EF enables to query insert,update and delete data using Common Language Runtime (CLR) objects which is known as entities
+
+- EF maps entities and relationships that are defined
+
+- The primary class that is responsible for interacting with data as objects is System.Data.Entity.DbContext.
+
+- EF team distributes EntityFramework.dll through Microsofts NuGet distribution feature.
+
+
+Will require "Microsoft.EntityFrameworkCore.Tools" package for DbContext
+********************************************************************************************
+
+
+DbContext(Handles entire database) & DbSet(handes entire tables in that particular database) :
+
+- DbContext API is targeted at simplifying interaction with Entity framework.
+- It also reduces number of methods and properties you need to access commonly used tasks.
+
+
+
+
+DbSet: It is secondary class
+- We can use automatic properties with DbSet such as getter and setter
+
+***************************************************************************************************************
+
+DbContext -> Database
+
+DbSet Property <- Tables 
+
+
+DB (<-DbContext) (Table1,Table2,Table3) [<-DbSet]
+
+
+**********************************************
+
+Folder Structure:
+
+Craete "Data" Folder:
+-> ApplicationDbContext.cs
+
+class ApplicationDbContext : DbContext (it exposes DbSet<> property)
+{
+	
+	public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+	{
+		
+	}
+	
+	public DbSet<Emp> employee {get; set;} //Emp is my model //employee is table name
+	
+	public DbSet<Student> stud {get; set;} //Student is my model //stud is table name
+	
+
+
+}
+
+
+
+class Emp
+{
+	[Key]
+	public int id {get; set;}
+	public string name {get; set;}
+	public double salary {get; set;}
+	
+}
+
+1) add-migration MNTest (It will craete MNtest file and create structure for employee table but not creates table)
+2) update-database (It will store/save table structure into the database {creates the employee table})
+
+
+
+----------------------------------------------------------------------------------------
+
+class Student
+{
+	[Key]
+	public int id {get; set;}
+	public string name {get; set;}
+	public string contactno {get; set;}
+}
+
+1) add-migration Migrationname (It will craete MNtest file and create structure for employee table but not creates table)
+2) update-database (It will store/save table structure into the database {creates the employee table})
+
+
+
+
+migration name for each table gets changes.Not should be same
+
+--------------****************------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

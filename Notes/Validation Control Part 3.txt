@@ -1,0 +1,44 @@
+Masstech Session 152 -  Validation Control Part 3
+
+
+1) Email Address
+
+[EmailAddress] - to validate your internet email ID.
+
+2) Regular Expression :
+ 
+[RegularExpression ('pattern') ] 
+
+3) Compare Validator
+
+[Compare ("prop") ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

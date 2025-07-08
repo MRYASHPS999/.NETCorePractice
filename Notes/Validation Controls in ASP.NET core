@@ -97,6 +97,13 @@ Tag helper
 
 <span asp-validation-summary="All" ></span>
 
+*********************************************************************************
+
+
+Masstech Session 152 :
+
+[EmailAddress] - to validate your internet email ID.
+
 
 
 

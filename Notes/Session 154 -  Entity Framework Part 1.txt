@@ -1,0 +1,57 @@
+Session 154 -  Entity Framework Part 1
+
+*********************************************
+
+Whta is Entity Framework : 
+
+- In ASP.NET we use ADO.NET but we cant use in MVC (because enterprise application are too big and complex to implement with ADO.NET)
+
+- suppose we have three columns in Emp table(id,name.salary) because insert query will insert only individual data only not bulk data (100 colums) [Using ADO.NET]
+
+- It can be acheived only entity framework
+
+**********************************
+
+Entity Framework in ASP.NET Core:
+
+- It is an ORM which is type of tool and simplifies mapping objects in software and columns of relational database.
+
+What is ORM (Object Relational Mapper[->]{Mapping between Object & DB Tables(Relational)})
+
+- The ORM Takes care of creating database connections and executing commands as well as executing query results and automatically those results as your application objects.
+
+- ORM helps to keep track of changes to those objects (using "add-migration migrationName") and when instructed it will also persist those changes back to the database (usning "update-database")
+
+- It also increase developers productivity by reducing reduntant task of persisting data used in the applications.
+
+******************************************************
+
+For adding new columns in existing object (Model name eg : Emp)
+
+There are two commands:
+
+1) add-migration migrationName
+- It is used to detect the changes from the model
+
+
+2) update-database 
+- It will save the changes in the table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

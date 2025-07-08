@@ -1,0 +1,57 @@
+Masstech Session 153 -  Validation Control Part 4
+
+
+
+Here we are setiing validation (Error Mesage from view side)
+
+Previous sessions we set validation messages from model side
+
+Three Types of validation Summary :
+
+1) All
+
+2) ModelOnly
+
+3) None
+
+**************************************************
+
+Another Validation controls
+
+1) [Stringlegth (maxlength=  , minlength=)]   //it is called as server side validation
+
+//client side vallidation : showing frequently without server response
+
+//server side validation : showing error message after after validate button it is generating via server side
+
+//due to max length, it is not allowing to enter characters above max length
+
+
+eg :
+[Stringlegth (maxlength=10, minlength=5)]
+public string name {get; set;}
+
+
+
+2) [Range(maxrange, minrange)] //client side validator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

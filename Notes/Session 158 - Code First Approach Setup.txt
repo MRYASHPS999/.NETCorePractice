@@ -1,0 +1,275 @@
+Session 158 - Code First Approach Setup:
+
+
+*****************************************************************************************
+
+
+Setup For Code First Approach:-
+
+Step 1: Setup Connection string
+-> appsetings.json
+	"ConnectionStrings" : 
+	{
+		"Conn_Name" : "connstringvalue"
+	}
+	
+
+step 2 : Create DbContext file
+-> Create New Folder (Data) -> ApplicationDbContext.cs
+   
+   ------------------------------------------------
+   
+Craete "Data" Folder:
+-> ApplicationDbContext.cs
+
+class ApplicationDbContext : DbContext (it exposes DbSet<> property)
+{
+	
+	public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+	{
+		
+	}
+	
+	public DbSet<Emp> employee {get; set;} //Emp is my model //employee is table name
+	
+	public DbSet<Student> stud {get; set;} //Student is my model //stud is table name
+	
+
+
+}
+
+		------------------------------------------------------------
+		
+		
+
+Step 3: Add Service for connection setup
+
+import package : Microsoft.EntityFrameworkCore.SqlServer in
+
+
+->program.cs
+
+builder.services.AddDbContext<ApplicationDbContext> (options => options.UseSqlServer(builder.Configuration.GetConnectionString("Conn_Name");));
+
+commands :
+
+1) add-migration MigrationName
+
+eg : add-migration Test
+
+2) update-database (save this migrations into sql server)
+
+
+****************************************************************************************************
+
+
+CRUD Operations Using Entity Framework :
+
+
+1) Save Data [DML]
+
+=> dbname.tablename.Add(object); {To insert data into table} //object means model/table name 
+
+=> dbname.SaveChanges(); //It is reflecting to our DB in SQL Server.
+
+
+2) Fetch Data [DQL]
+
+=> dbname.tablename.ToList(); //it will convert our whole data in ist format
+
+
+3) Delete Data [DML]
+
+=> dbname.tablename.Remove(object); //it will delete the data
+ dbname.SaveChanges(); //reflecting into SQL Server
+
+
+
+4) Update Data [DML]
+dbname.tablename.Update(object); // It will modify the data
+dbname.SaveChanges(); //reflecting to SQL Server
+
+
+*****************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
