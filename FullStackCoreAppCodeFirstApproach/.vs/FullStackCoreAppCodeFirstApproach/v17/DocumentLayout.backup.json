@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\views\\emp\\addemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\views\\emp\\addemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\views\\emp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{23499529-15AE-466B-89F5-1B170D9B67CB}|FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj|solutionrelative:fullstackcoreappcodefirstapproach\\fullstackcoreappcodefirstapproach.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,128 +58,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwB8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T04:46:41.794Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Models\\Employee.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Models\\Employee.cs",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Models\\Employee.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T16:11:02.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddEmp.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Views\\Emp\\AddEmp.cshtml",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Views\\Emp\\AddEmp.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Views\\Emp\\AddEmp.cshtml",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Views\\Emp\\AddEmp.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-08T16:29:20.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmpController.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Controllers\\EmpController.cs",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Controllers\\EmpController.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Controllers\\EmpController.cs",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Controllers\\EmpController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvw0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T16:25:48.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Program.cs",
               "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Program.cs",
               "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Program.cs",
               "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T16:14:04.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\appsettings.json",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\appsettings.json",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\appsettings.json",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T16:09:34.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T16:13:31.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Views\\Emp\\Index.cshtml",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Views\\Emp\\Index.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Views\\Emp\\Index.cshtml",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Views\\Emp\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-08T16:36:57.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-08T16:37:45.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FullStackCoreAppCodeFirstApproach.csproj",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj",
-              "RelativeDocumentMoniker": "FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj",
-              "RelativeToolTip": "FullStackCoreAppCodeFirstApproach\\FullStackCoreAppCodeFirstApproach.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-08T16:12:12.369Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "WhenOpened": "2025-07-10T04:12:55.874Z",
+              "EditorCaption": ""
             }
           ]
         },
