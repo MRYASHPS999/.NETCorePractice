@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FullStackCoreAppCodeFirstApproach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4a8658d07b9d2ba5717e193598849be555e3a74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8b3b2d9ac2b8081df263ad90af9c7dc324db494")]
 [assembly: System.Reflection.AssemblyProductAttribute("FullStackCoreAppCodeFirstApproach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FullStackCoreAppCodeFirstApproach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
