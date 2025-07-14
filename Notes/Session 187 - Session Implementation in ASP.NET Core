@@ -1,0 +1,141 @@
+Session 187 : Session Implementation in ASP.NET Core
+
+*************************************************************************************************
+
+- It is a property of controller whose type is HttpSessionStateBase
+
+- Session Expiration Time is 20 Min (Default) but we can change it.
+
+- It is valid for all request not only for single request
+
+- It Slow down the performance of application (Disadvantage of sessions same as asp.net web application)
+
+- It requires type casting for getting data and also checks for null value for avoiding errors.
+
+
+-------------------
+
+
+How Set up Session 
+
+steps to Implement session:-
+
+Step 1) Register service for session:
+
+builder.Service.AddSession
+(
+	option =>
+	{
+		option.IdleTimeout=TimeSpan.FromMinutes(10) //it will timeout in 10 minutes [FromHours(),FromSeconds() also we can use for timeout]
+		option.Cookie.HttpOnly = true;
+		option.Cookie.IsEssecntial = true;
+	}
+	
+)
+
+Step 2) Register middleware for session:
+
+app.UseSession();
+
+Step 3) How to set session:
+
+HttpContext.Session.SetString("key","value");
+
+
+Step 4) How to get Session:
+
+HttpContext.Session.GetString("key");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

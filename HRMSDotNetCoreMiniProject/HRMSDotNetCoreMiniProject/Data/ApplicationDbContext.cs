@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HRMSDotNetCoreMiniProject.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace HRMSDotNetCoreMiniProject.Data
 {
@@ -10,6 +11,13 @@ namespace HRMSDotNetCoreMiniProject.Data
 
         }
 
+        public DbSet<Employee> employees { get; set; }
+
+        public DbSet<Manager> managers { get; set; }
+
+        public DbSet<Department> departments { get; set; }
+
+        public DbSet<UserDetails> userdetails { get; set; }
 
 
     }

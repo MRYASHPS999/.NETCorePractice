@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Employee
+
+<form  class="form-control" method="post">
+
+    Employee Name :  <input type="text" asp-for="empname" class="form-control" /> <br />
+
+    Employee Email : <input type="text" asp-for="empemail" class="form-control" /> <br />
+
+    Employee Salary :  <input type="text" asp-for="empsalary" class="form-control" /> <br />
+
+    Department :
+    <select class="form-control" asp-for="department.deptid" asp-items="@ViewBag.managers" class="form-control"></select> <br />
+
+     Manager :
+    <select class="form-control" asp-for="mgrid" asp-items="@ViewBag.managers" class="form-control"></select> <br />
+
+    Status : 
+    <select asp-for="empstatus" class="form-control">
+    <option value="value">Active</option>
+     <option value="value">InActive</option>
+    </select>  <br />
+
+    <input type="submit" value="Save" class="btn btn-primary">
+
+
+
+
+</form>

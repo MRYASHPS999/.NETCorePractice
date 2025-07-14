@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model Manager
+
+<form method="post">
+
+    Manager Name : <input type="text" asp-for="mgrname" class="form-control" /> <br />
+
+    Department :
+    <select class="form-control" asp-for="dept.deptid" asp-items="@ViewBag.departments" class="form-control"></select> <br />
+
+    Status :
+    <select asp-for="mgrstatus" class="form-control">
+        <option value="value">Active</option>
+        <option value="value">InActive</option>
+    </select>  <br />
+
+    <input type="submit" value="Save" class="btn btn-primary">
+
+</form>

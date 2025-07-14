@@ -1,4 +1,6 @@
 using HRMSDotNetCoreMiniProject.Data;
+using HRMSDotNetCoreMiniProject.Repository;
+using HRMSDotNetCoreMiniProject.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,7 +17,19 @@ builder.Services.AddDbContext<ApplicationDbContext>
         )
     );
 
-//builder.Services.AddScoped<IEmpService, EmpService>();
+builder.Services.AddScoped<IAdminService, AdminService>();
+builder.Services.AddScoped<IUserService, UserService>();
+
+
+builder.Services.AddSession
+(
+    option =>
+    {
+        option.IdleTimeout = TimeSpan.FromMinutes(10);
+        option.Cookie.HttpOnly = true;
+        option.Cookie.IsEssential = true;
+    }
+);
 
 var app = builder.Build();
 
@@ -34,8 +48,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseSession();
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=Index}/{id?}");
+    pattern: "{controller=Admin}/{action=Index}/{id?}");
 
 app.Run();
