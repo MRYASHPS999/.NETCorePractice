@@ -1,0 +1,13 @@
+﻿@model DocumentUpload
+
+<form method="post" enctype="multipart/form-data">
+    Select File : 
+    <input type="file" name="file" class="form-control" required />
+
+    Employee :
+    <select  asp-for="empid" asp-items="@ViewBag.employees" class="form-control">
+        <option value="">-- Select Employee --</option>
+    </select> <br />
+
+    <button type="submit" class="btn btn-primary mt-2">Upload</button>
+</form>

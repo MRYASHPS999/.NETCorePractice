@@ -1,10 +1,6 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model HRMSDotNetCoreMiniProject.Models.Employee
 
-@model Employee
+
 
 <form  class="form-control" method="post">
 
@@ -15,15 +11,19 @@
     Employee Salary :  <input type="text" asp-for="empsalary" class="form-control" /> <br />
 
     Department :
-    <select class="form-control" asp-for="department.deptid" asp-items="@ViewBag.managers" class="form-control"></select> <br />
+    <select  asp-for="deptid" asp-items="@ViewBag.departments" class="form-control">
+        <option value="">-- Select Department --</option>
+    </select> <br />
 
      Manager :
-    <select class="form-control" asp-for="mgrid" asp-items="@ViewBag.managers" class="form-control"></select> <br />
+    <select  asp-for="mgrid" asp-items="@ViewBag.managers" class="form-control">
+        <option value="">-- Select Manager --</option>
+    </select> <br />
 
     Status : 
     <select asp-for="empstatus" class="form-control">
-    <option value="value">Active</option>
-     <option value="value">InActive</option>
+    <option>Active</option>
+     <option>InActive</option>
     </select>  <br />
 
     <input type="submit" value="Save" class="btn btn-primary">
@@ -32,3 +32,4 @@
 
 
 </form>
+

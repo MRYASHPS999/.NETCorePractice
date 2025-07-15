@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HRMSDotNetCoreMiniProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250713164212_test1")]
-    partial class test1
+    [Migration("20250714055043_createtable1")]
+    partial class createtable1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -57,12 +57,15 @@ namespace HRMSDotNetCoreMiniProject.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("empemail")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("empname")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("empsalary")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("empstatus")
@@ -89,9 +92,6 @@ namespace HRMSDotNetCoreMiniProject.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("mgrid"));
 
-                    b.Property<int>("deptid")
-                        .HasColumnType("int");
-
                     b.Property<string>("mgrname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -101,8 +101,6 @@ namespace HRMSDotNetCoreMiniProject.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("mgrid");
-
-                    b.HasIndex("deptid");
 
                     b.ToTable("managers");
                 });
@@ -147,23 +145,12 @@ namespace HRMSDotNetCoreMiniProject.Migrations
                     b.HasOne("HRMSDotNetCoreMiniProject.Models.Manager", "manager")
                         .WithMany("emps")
                         .HasForeignKey("mgrid")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("department");
 
                     b.Navigation("manager");
-                });
-
-            modelBuilder.Entity("HRMSDotNetCoreMiniProject.Models.Manager", b =>
-                {
-                    b.HasOne("HRMSDotNetCoreMiniProject.Models.Department", "dept")
-                        .WithMany()
-                        .HasForeignKey("deptid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("dept");
                 });
 
             modelBuilder.Entity("HRMSDotNetCoreMiniProject.Models.Department", b =>

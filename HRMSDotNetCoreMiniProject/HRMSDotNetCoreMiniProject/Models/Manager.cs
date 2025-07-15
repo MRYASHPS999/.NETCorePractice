@@ -14,9 +14,14 @@ namespace HRMSDotNetCoreMiniProject.Models
 
         public List<Employee> emps { get; set; }
 
-        public Department dept { get; set; }
 
-        
+        //[ForeignKey("depts")]   //"depts" is the navigation property for mapping
+        //public int deptid { get; set; }
+
+        //public Department depts { get; set; }
+
+        //public List<Employee> emplist { get; set; }
+
 
 
 

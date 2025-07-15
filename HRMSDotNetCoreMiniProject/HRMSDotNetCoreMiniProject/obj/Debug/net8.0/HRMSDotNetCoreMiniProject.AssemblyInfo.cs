@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HRMSDotNetCoreMiniProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72bafc7d13814b5ecfe328627c78d23fec1443a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b86534153835e237e73c3e06165e2e62a373672e")]
 [assembly: System.Reflection.AssemblyProductAttribute("HRMSDotNetCoreMiniProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HRMSDotNetCoreMiniProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

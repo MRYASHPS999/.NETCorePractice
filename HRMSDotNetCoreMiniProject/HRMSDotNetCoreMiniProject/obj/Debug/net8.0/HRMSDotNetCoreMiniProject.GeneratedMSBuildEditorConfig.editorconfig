@@ -40,8 +40,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTWdyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Admin/DocumentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRG9jdW1lbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Admin/EditEmp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEVtcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Admin/UploadFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBsb2FkRmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Home/Index.cshtml]
@@ -52,8 +64,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Login/AdminDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5EYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Login/UserDashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlckRhc2hCb2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Shared/Error.cshtml]
@@ -62,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/User/MyDocuments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeURvY3VtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C Sharp Projects/Masstech Projects/Practice Projects/HRMSDotNetCoreMiniProject/HRMSDotNetCoreMiniProject/Views/_ViewImports.cshtml]

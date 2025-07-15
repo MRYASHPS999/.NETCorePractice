@@ -5,7 +5,7 @@
 namespace HRMSDotNetCoreMiniProject.Migrations
 {
     /// <inheritdoc />
-    public partial class test : Migration
+    public partial class createtable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -48,14 +48,14 @@ namespace HRMSDotNetCoreMiniProject.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     mgrname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     mgrstatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    deptid = table.Column<int>(type: "int", nullable: false)
+                    deptsdeptid = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_managers", x => x.mgrid);
                     table.ForeignKey(
-                        name: "FK_managers_departments_deptid",
-                        column: x => x.deptid,
+                        name: "FK_managers_departments_deptsdeptid",
+                        column: x => x.deptsdeptid,
                         principalTable: "departments",
                         principalColumn: "deptid",
                         onDelete: ReferentialAction.Cascade);
@@ -67,9 +67,9 @@ namespace HRMSDotNetCoreMiniProject.Migrations
                 {
                     empid = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    empname = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    empemail = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    empsalary = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    empname = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    empemail = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    empsalary = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     empstatus = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     mgrid = table.Column<int>(type: "int", nullable: false),
                     deptid = table.Column<int>(type: "int", nullable: false)
@@ -88,7 +88,7 @@ namespace HRMSDotNetCoreMiniProject.Migrations
                         column: x => x.mgrid,
                         principalTable: "managers",
                         principalColumn: "mgrid",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
@@ -102,9 +102,9 @@ namespace HRMSDotNetCoreMiniProject.Migrations
                 column: "mgrid");
 
             migrationBuilder.CreateIndex(
-                name: "IX_managers_deptid",
+                name: "IX_managers_deptsdeptid",
                 table: "managers",
-                column: "deptid");
+                column: "deptsdeptid");
         }
 
         /// <inheritdoc />

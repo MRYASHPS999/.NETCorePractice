@@ -86,6 +86,32 @@ namespace HRMSDotNetCoreMiniProject.Controllers
 
         //}
 
+        public IActionResult AdminDashboard()
+        {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (HttpContext.Session.GetString("UserRole") != "Admin")
+                return RedirectToAction("SignIn");
+
+            ViewBag.Username = HttpContext.Session.GetString("Username");
+            ViewBag.WelcomeMsg = TempData["welcome"]?.ToString();
+
+            return View();
+        }
+
+        public IActionResult UserDashboard()
+        {
+            var role = HttpContext.Session.GetString("UserRole");
+
+            if (HttpContext.Session.GetString("UserRole") != "User")
+                return RedirectToAction("SignIn");
+
+            ViewBag.Username = HttpContext.Session.GetString("Username");
+            ViewBag.WelcomeMsg = TempData["welcome"]?.ToString();
+
+            return View();
+        }
+
         [HttpPost]
         public IActionResult SignIn(string Email, string passowrd)
         {
@@ -100,8 +126,17 @@ namespace HRMSDotNetCoreMiniProject.Controllers
                 if (passdata != null)
                 {
 
+                    HttpContext.Session.SetString("Email", passdata.Email);
+                    HttpContext.Session.SetString("UserRole", passdata.userrole);
+                    HttpContext.Session.SetString("Username", passdata.username ?? "User");
+                    TempData["welcome"] = $"Welcome, {passdata.username}!";
+
                     bool admin = passdata.userrole.Equals("Admin");
                     bool user = passdata.userrole.Equals("User");
+
+                    
+
+                   
 
                     if (admin)
                     {

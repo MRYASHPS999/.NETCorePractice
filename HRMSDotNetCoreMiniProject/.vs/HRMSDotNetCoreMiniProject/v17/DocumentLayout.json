@@ -3,32 +3,64 @@
   "WorkspaceRootPath": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\migrations\\20250713164212_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\migrations\\20250713164212_test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\user\\mydocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\user\\mydocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\admin\\addmgr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\admin\\addmgr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\admin\\addemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\admin\\addemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\repository\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\repository\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\login\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\login\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\login\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\login\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\service\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\admin\\adddept.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\admin\\adddept.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\admin\\editemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\admin\\editemp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\views\\admin\\uploadfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\views\\admin\\uploadfile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|d:\\c sharp projects\\masstech projects\\practice projects\\hrmsdotnetcoreminiproject\\hrmsdotnetcoreminiproject\\repository\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8AE80A6-79DE-439B-B28B-37FBDAD6F491}|HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject.csproj|solutionrelative:hrmsdotnetcoreminiproject\\repository\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 296,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,93 +113,197 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyDocuments.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\User\\MyDocuments.cshtml",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\User\\MyDocuments.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\User\\MyDocuments.cshtml",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\User\\MyDocuments.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:18:43.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250713164212_test1.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Migrations\\20250713164212_test1.cs",
-              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Migrations\\20250713164212_test1.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Migrations\\20250713164212_test1.cs",
-              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Migrations\\20250713164212_test1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwHkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:42:12.446Z",
+              "WhenOpened": "2025-07-14T16:17:24.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T15:31:57.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Repository\\IUserService.cs",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Repository\\IUserService.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Repository\\IUserService.cs",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Repository\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T15:30:44.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UserDashBoard.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Login\\UserDashBoard.cshtml",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Login\\UserDashBoard.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Login\\UserDashBoard.cshtml",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Login\\UserDashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:15:12.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Service\\AdminService.cs",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Service\\AdminService.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Service\\AdminService.cs",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Service\\AdminService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAASwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T14:47:23.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Program.cs",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Program.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Program.cs",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T04:42:58.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDashBoard.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Login\\AdminDashBoard.cshtml",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Login\\AdminDashBoard.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Login\\AdminDashBoard.cshtml",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Login\\AdminDashBoard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:12:51.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:07:45.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:13:21.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditEmp.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\EditEmp.cshtml",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Admin\\EditEmp.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\EditEmp.cshtml",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Admin\\EditEmp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:16:11.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Models\\Employee.cs",
               "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Models\\Employee.cs",
               "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Models\\Employee.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T14:37:47.715Z"
+              "WhenOpened": "2025-07-15T04:53:43.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Models\\Manager.cs",
-              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Models\\Manager.cs",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Models\\Manager.cs",
-              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Models\\Manager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T14:33:05.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddEmp.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\AddEmp.cshtml",
-              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Admin\\AddEmp.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\AddEmp.cshtml",
-              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Admin\\AddEmp.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T13:50:37.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddMgr.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\AddMgr.cshtml",
-              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Admin\\AddMgr.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\AddMgr.cshtml",
-              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Admin\\AddMgr.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T14:29:49.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddDept.cshtml",
-              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\AddDept.cshtml",
-              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Admin\\AddDept.cshtml",
-              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\AddDept.cshtml",
-              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Admin\\AddDept.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T14:26:07.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Controllers\\AdminController.cs",
               "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAUwIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T13:49:26.309Z"
+              "WhenOpened": "2025-07-14T14:47:17.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UploadFile.cshtml",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\UploadFile.cshtml",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Views\\Admin\\UploadFile.cshtml",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Views\\Admin\\UploadFile.cshtml",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Views\\Admin\\UploadFile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:24:21.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Repository\\IAdminService.cs",
+              "RelativeDocumentMoniker": "HRMSDotNetCoreMiniProject\\Repository\\IAdminService.cs",
+              "ToolTip": "D:\\C Sharp Projects\\Masstech Projects\\Practice Projects\\HRMSDotNetCoreMiniProject\\HRMSDotNetCoreMiniProject\\Repository\\IAdminService.cs",
+              "RelativeToolTip": "HRMSDotNetCoreMiniProject\\Repository\\IAdminService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T14:47:21.071Z"
             }
           ]
         },

@@ -16,6 +16,9 @@ namespace HRMSDotNetCoreMiniProject.Repository
 
         void UpdateEmpDetails(Employee e);
 
+        void UploadDocument(IFormFile file, int employeeId, string uploadedBy);
+        List<DocumentUpload> GetAllDocuments();
+
 
     }
 

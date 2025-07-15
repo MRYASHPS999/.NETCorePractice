@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@if (TempData["success"] != null)
+{
+
+    <span class="text-success">@TempData["success"]</span>
+
+}
+
+@if (TempData["errormail"] != null)
+{
+
+    <span class="text-danger">@TempData["errormail"]</span>
+
+}
+
+@if (TempData["errormsg"] != null)
+{
+
+    <span class="text-danger">@TempData["errormsg"]</span>
+
+}
+
+
+
+@* <span class="text-success">@TempData["success"]</span> *@
+
+<form style="width:30%;" class="form-control" method="post">
+
+    Email Id : <input type="text" name="Email" placeholder="Enter Username/Email Id" class="form-control" /> <br />
+
+    Password :  <input type="password" name="passowrd" placeholder="Enter Password" class="form-control" /> <br />
+
+    <input type="submit" value="SignIn" class="btn btn-primary" style="margin:0px auto;" />
+
+</form>
+
+<a asp-controller="Auth" asp-action="SignUp" style="margin-left:10%;position:absolute;top:40%;">Create New Account</a>

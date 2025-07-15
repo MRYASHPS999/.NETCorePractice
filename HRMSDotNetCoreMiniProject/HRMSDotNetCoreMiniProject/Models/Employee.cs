@@ -9,11 +9,11 @@ namespace HRMSDotNetCoreMiniProject.Models
         [Key]
         public int empid { get; set; } 
 
-        public string? empname { get; set; }
+        public string empname { get; set; }
 
-        public string? empemail { get; set; }
+        public string empemail { get; set; }
 
-        public string? empsalary { get; set; }
+        public string empsalary { get; set; }
 
         public string empstatus { get; set; }
 
@@ -29,6 +29,9 @@ namespace HRMSDotNetCoreMiniProject.Models
         public int deptid { get; set; }
 
         public Department department { get; set; }
+
+       //Mapping for documents 
+        public List<DocumentUpload> Documents { get; set; }
 
 
     }

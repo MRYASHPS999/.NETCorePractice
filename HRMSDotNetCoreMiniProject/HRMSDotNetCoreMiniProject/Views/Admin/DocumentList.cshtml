@@ -1,0 +1,25 @@
+﻿@model List<DocumentUpload>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>File</th>
+            <th>Assigned To</th>
+            <th>Uploaded By</th>
+            <th>Date</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doc in Model)
+        {
+            <tr>
+                <td>@doc.filename</td>
+                <td>@doc.Employee.empname</td>
+                <td>@doc.uploadedby</td>
+                <td>@doc.uploadedon</td>
+                <td><a href="@doc.filepath" download>Download</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

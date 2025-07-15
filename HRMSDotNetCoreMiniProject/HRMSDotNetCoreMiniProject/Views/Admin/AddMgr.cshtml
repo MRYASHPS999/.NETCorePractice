@@ -11,13 +11,13 @@
 
     Manager Name : <input type="text" asp-for="mgrname" class="form-control" /> <br />
 
-    Department :
-    <select class="form-control" asp-for="dept.deptid" asp-items="@ViewBag.departments" class="form-control"></select> <br />
+    @* Department :
+    <select class="form-control" asp-for="Department.deptid" asp-items="@ViewBag.departments" class="form-control"></select> <br /> *@
 
     Status :
     <select asp-for="mgrstatus" class="form-control">
-        <option value="value">Active</option>
-        <option value="value">InActive</option>
+        <option value="Active">Active</option>
+        <option value="InActive">InActive</option>
     </select>  <br />
 
     <input type="submit" value="Save" class="btn btn-primary">

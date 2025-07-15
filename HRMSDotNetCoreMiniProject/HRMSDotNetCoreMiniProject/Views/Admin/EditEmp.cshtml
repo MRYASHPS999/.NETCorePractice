@@ -1,0 +1,20 @@
+﻿@model Employee
+
+<form method="post">
+
+    ID <input type="text" class="form-control" readonly asp-for="empid" /><br />
+
+    Name <input type="text" class="form-control" asp-for="empname" /><br />
+
+    Email <input type="text" class="form-control" asp-for="empemail" /><br />
+
+    Salary <input type="text" class="form-control" asp-for="empsalary" /><br />
+
+    Status: <input type="hidden" readonly asp-for="empstatus" class="form-control" />
+
+    Dpeartmant <input type="hidden" readonly asp-for="deptid" class="form-control" />
+
+    Manager <input type="hidden" readonly asp-for="mgrid" class="form-control" />
+
+    <input type="submit" value="Save" class="btn btn-primary">
+</form>
